@@ -1,4 +1,4 @@
-# Minimal Repo Demonstrating Issue
+# Minimal Reproduction of Issue #477
 
 ---
 
