@@ -16,3 +16,8 @@ Changing the module name in `components.d.ts` from `'@vue/runtime-core'` to `'vu
 But, the problem is that manually changing the module name in `components.d.ts` is not sustainable.
 Whenever the `unplugin-vue-components` detects a change in the components directory, it automatically
 updates the definitions file and changes the module name back to `'@vue/runtime-core'`.
+
+## Additional Notes
+
+This project was built with Vite's Vue 3 + Typescript template. All dependencies updated to the latest version
+at the time of this release.
