@@ -5,10 +5,8 @@ import '@vue/runtime-core'
 
 export {}
 
-// NOTE: change module name to 'vue' to fix the intellisense issue
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
   }
 }
-
